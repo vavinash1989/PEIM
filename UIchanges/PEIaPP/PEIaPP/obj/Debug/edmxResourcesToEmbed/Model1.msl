@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PEIModelStoreContainer" CdmEntityContainer="PEIEntities7">
+    <EntitySetMapping Name="Alabama_AMatrix">
+      <EntityTypeMapping TypeName="PEIModel.Alabama_AMatrix">
+        <MappingFragment StoreEntitySet="Alabama_AMatrix">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Alabama_Area">
+      <EntityTypeMapping TypeName="PEIModel.Alabama_Area">
+        <MappingFragment StoreEntitySet="Alabama_Area">
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Population" ColumnName="Population" />
+          <ScalarProperty Name="StateFipsCode" ColumnName="StateFipsCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Alabama_GridAlabama_RegionData">
+      <EntityTypeMapping TypeName="PEIModel.Alabama_GridAlabama_RegionData">
+        <MappingFragment StoreEntitySet="Alabama_GridAlabama_RegionData">
+          <ScalarProperty Name="RIO" ColumnName="RIO" />
+          <ScalarProperty Name="RIO_DESC" ColumnName="RIO_DESC" />
+          <ScalarProperty Name="IncomeTotal" ColumnName="IncomeTotal" />
+          <ScalarProperty Name="EmploymentTotal" ColumnName="EmploymentTotal" />
+          <ScalarProperty Name="GDPTotal" ColumnName="GDPTotal" />
+          <ScalarProperty Name="P" ColumnName="P" />
+          <ScalarProperty Name="Supply" ColumnName="Supply" />
+          <ScalarProperty Name="Demand" ColumnName="Demand" />
+          <ScalarProperty Name="FederalGenTotal" ColumnName="FederalGenTotal" />
+          <ScalarProperty Name="StateTotal" ColumnName="StateTotal" />
+          <ScalarProperty Name="LocalTotal" ColumnName="LocalTotal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Alabama_GridRegionValues">
+      <EntityTypeMapping TypeName="PEIModel.Alabama_GridRegionValues">
+        <MappingFragment StoreEntitySet="Alabama_GridRegionValues">
+          <ScalarProperty Name="RIO" ColumnName="RIO" />
+          <ScalarProperty Name="RIO_DESC" ColumnName="RIO_DESC" />
+          <ScalarProperty Name="Inc" ColumnName="Inc" />
+          <ScalarProperty Name="Emp" ColumnName="Emp" />
+          <ScalarProperty Name="GDP" ColumnName="GDP" />
+          <ScalarProperty Name="FederalGen" ColumnName="FederalGen" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Local" ColumnName="Local" />
+          <ScalarProperty Name="P" ColumnName="P" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Alabama_LeontievInverse">
+      <EntityTypeMapping TypeName="PEIModel.Alabama_LeontievInverse">
+        <MappingFragment StoreEntitySet="Alabama_LeontievInverse">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Alabama_Regions">
+      <EntityTypeMapping TypeName="PEIModel.Alabama_Regions">
+        <MappingFragment StoreEntitySet="Alabama_Regions">
+          <ScalarProperty Name="REGION_ID" ColumnName="REGION_ID" />
+          <ScalarProperty Name="DataName" ColumnName="DataName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AlabamaRest_Area">
+      <EntityTypeMapping TypeName="PEIModel.AlabamaRest_Area">
+        <MappingFragment StoreEntitySet="AlabamaRest_Area">
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Population" ColumnName="Population" />
+          <ScalarProperty Name="StateFipsCode" ColumnName="StateFipsCode" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AlabamaRest_GridRegionValues">
+      <EntityTypeMapping TypeName="PEIModel.AlabamaRest_GridRegionValues">
+        <MappingFragment StoreEntitySet="AlabamaRest_GridRegionValues">
+          <ScalarProperty Name="RIO" ColumnName="RIO" />
+          <ScalarProperty Name="RIO_DESC" ColumnName="RIO_DESC" />
+          <ScalarProperty Name="Inc" ColumnName="Inc" />
+          <ScalarProperty Name="Emp" ColumnName="Emp" />
+          <ScalarProperty Name="GDP" ColumnName="GDP" />
+          <ScalarProperty Name="FederalGen" ColumnName="FederalGen" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Local" ColumnName="Local" />
+          <ScalarProperty Name="P" ColumnName="P" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AlabamaRest_LeontievInverse">
+      <EntityTypeMapping TypeName="PEIModel.AlabamaRest_LeontievInverse">
+        <MappingFragment StoreEntitySet="AlabamaRest_LeontievInverse">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Campings">
+      <EntityTypeMapping TypeName="PEIModel.Camping">
+        <MappingFragment StoreEntitySet="Camping">
+          <ScalarProperty Name="PC_KEY" ColumnName="PC_KEY" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Day_Trips">
+      <EntityTypeMapping TypeName="PEIModel.Day_Trip">
+        <MappingFragment StoreEntitySet="Day Trip">
+          <ScalarProperty Name="PC_KEY" ColumnName="PC_KEY" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DefaultDatas">
+      <EntityTypeMapping TypeName="PEIModel.DefaultData">
+        <MappingFragment StoreEntitySet="DefaultData">
+          <ScalarProperty Name="RIO" ColumnName="RIO" />
+          <ScalarProperty Name="RIO_KEY" ColumnName="RIO_KEY" />
+          <ScalarProperty Name="REGION_ID" ColumnName="REGION_ID" />
+          <ScalarProperty Name="Inc" ColumnName="Inc" />
+          <ScalarProperty Name="Emp" ColumnName="Emp" />
+          <ScalarProperty Name="GDP" ColumnName="GDP" />
+          <ScalarProperty Name="Wages" ColumnName="Wages" />
+          <ScalarProperty Name="P" ColumnName="P" />
+          <ScalarProperty Name="FederalGen" ColumnName="FederalGen" />
+          <ScalarProperty Name="FederalIns" ColumnName="FederalIns" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Local" ColumnName="Local" />
+          <ScalarProperty Name="Supply" ColumnName="Supply" />
+          <ScalarProperty Name="Demand" ColumnName="Demand" />
+          <ScalarProperty Name="IncomeTotal" ColumnName="IncomeTotal" />
+          <ScalarProperty Name="EmploymentTotal" ColumnName="EmploymentTotal" />
+          <ScalarProperty Name="GDPTotal" ColumnName="GDPTotal" />
+          <ScalarProperty Name="LocalTotal" ColumnName="LocalTotal" />
+          <ScalarProperty Name="StateTotal" ColumnName="StateTotal" />
+          <ScalarProperty Name="FederalGenTotal" ColumnName="FederalGenTotal" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Distributions">
+      <EntityTypeMapping TypeName="PEIModel.Distribution">
+        <MappingFragment StoreEntitySet="Distribution">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="C0" ColumnName="0" />
+          <ScalarProperty Name="C1" ColumnName="1" />
+          <ScalarProperty Name="C2" ColumnName="2" />
+          <ScalarProperty Name="C3" ColumnName="3" />
+          <ScalarProperty Name="C4" ColumnName="4" />
+          <ScalarProperty Name="C5" ColumnName="5" />
+          <ScalarProperty Name="C6" ColumnName="6" />
+          <ScalarProperty Name="C7" ColumnName="7" />
+          <ScalarProperty Name="C8" ColumnName="8" />
+          <ScalarProperty Name="C9" ColumnName="9" />
+          <ScalarProperty Name="C10" ColumnName="10" />
+          <ScalarProperty Name="C11" ColumnName="11" />
+          <ScalarProperty Name="C12" ColumnName="12" />
+          <ScalarProperty Name="C13" ColumnName="13" />
+          <ScalarProperty Name="C14" ColumnName="14" />
+          <ScalarProperty Name="C15" ColumnName="15" />
+          <ScalarProperty Name="C16" ColumnName="16" />
+          <ScalarProperty Name="C17" ColumnName="17" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DistributionCheckTbls">
+      <EntityTypeMapping TypeName="PEIModel.DistributionCheckTbl">
+        <MappingFragment StoreEntitySet="DistributionCheckTbl">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Friends_and_Families">
+      <EntityTypeMapping TypeName="PEIModel.Friends_and_Family">
+        <MappingFragment StoreEntitySet="Friends and Family">
+          <ScalarProperty Name="PC_KEY" ColumnName="PC_KEY" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FTEs">
+      <EntityTypeMapping TypeName="PEIModel.FTE">
+        <MappingFragment StoreEntitySet="FTE">
+          <ScalarProperty Name="PC_KEY" ColumnName="PC_KEY" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GeneralInfoes">
+      <EntityTypeMapping TypeName="PEIModel.GeneralInfo">
+        <MappingFragment StoreEntitySet="GeneralInfo">
+          <ScalarProperty Name="DollarsPerFTE" ColumnName="DollarsPerFTE" />
+          <ScalarProperty Name="DollarsPerPD" ColumnName="DollarsPerPD" />
+          <ScalarProperty Name="DollarsPerCN" ColumnName="DollarsPerCN" />
+          <ScalarProperty Name="DollarsPerLN" ColumnName="DollarsPerLN" />
+          <ScalarProperty Name="DollarsPerFN" ColumnName="DollarsPerFN" />
+          <ScalarProperty Name="PercentCamping" ColumnName="PercentCamping" />
+          <ScalarProperty Name="PercentLodging" ColumnName="PercentLodging" />
+          <ScalarProperty Name="PercentFriends" ColumnName="PercentFriends" />
+          <ScalarProperty Name="C0" ColumnName="0" />
+          <ScalarProperty Name="C1" ColumnName="1" />
+          <ScalarProperty Name="C2" ColumnName="2" />
+          <ScalarProperty Name="C3" ColumnName="3" />
+          <ScalarProperty Name="C4" ColumnName="4" />
+          <ScalarProperty Name="C5" ColumnName="5" />
+          <ScalarProperty Name="C6" ColumnName="6" />
+          <ScalarProperty Name="C7" ColumnName="7" />
+          <ScalarProperty Name="C8" ColumnName="8" />
+          <ScalarProperty Name="C9" ColumnName="9" />
+          <ScalarProperty Name="C10" ColumnName="10" />
+          <ScalarProperty Name="C11" ColumnName="11" />
+          <ScalarProperty Name="C12" ColumnName="12" />
+          <ScalarProperty Name="C13" ColumnName="13" />
+          <ScalarProperty Name="C14" ColumnName="14" />
+          <ScalarProperty Name="C15" ColumnName="15" />
+          <ScalarProperty Name="C16" ColumnName="16" />
+          <ScalarProperty Name="C17" ColumnName="17" />
+          <ScalarProperty Name="visitors" ColumnName="visitors" />
+          <ScalarProperty Name="capital" ColumnName="capital" />
+          <ScalarProperty Name="rest" ColumnName="rest" />
+          <ScalarProperty Name="RCRatio" ColumnName="RCRatio" />
+          <ScalarProperty Name="RVRatio" ColumnName="RVRatio" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="I_O_Codes_Old">
+      <EntityTypeMapping TypeName="PEIModel.I_O_Codes_Old">
+        <MappingFragment StoreEntitySet="I/O Codes Old">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IO_code" ColumnName="IO code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PC_I_O" ColumnName="PC I-O" />
+          <ScalarProperty Name="Replication_times" ColumnName="Replication times" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iocodes_new">
+      <EntityTypeMapping TypeName="PEIModel.iocodes_new">
+        <MappingFragment StoreEntitySet="iocodes_new">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IO_KEY" ColumnName="IO_KEY" />
+          <ScalarProperty Name="IO_DESC" ColumnName="IO_DESC" />
+          <ScalarProperty Name="PC_KEY" ColumnName="PC_KEY" />
+          <ScalarProperty Name="PC_KEY_FOUND" ColumnName="PC_KEY_FOUND" />
+          <ScalarProperty Name="SIC" ColumnName="SIC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JointVentures">
+      <EntityTypeMapping TypeName="PEIModel.JointVenture">
+        <MappingFragment StoreEntitySet="JointVentures">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IO_KEY" ColumnName="IO_KEY" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lodgings">
+      <EntityTypeMapping TypeName="PEIModel.Lodging">
+        <MappingFragment StoreEntitySet="Lodging">
+          <ScalarProperty Name="PC_KEY" ColumnName="PC_KEY" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MCapitals">
+      <EntityTypeMapping TypeName="PEIModel.MCapital">
+        <MappingFragment StoreEntitySet="MCapital">
+          <ScalarProperty Name="PC_KEY" ColumnName="PC_KEY" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MTheRests">
+      <EntityTypeMapping TypeName="PEIModel.MTheRest">
+        <MappingFragment StoreEntitySet="MTheRest">
+          <ScalarProperty Name="PC_KEY" ColumnName="PC_KEY" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MTourism">
+      <EntityTypeMapping TypeName="PEIModel.MTourism">
+        <MappingFragment StoreEntitySet="MTourism">
+          <ScalarProperty Name="PC_KEY" ColumnName="PC_KEY" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nation_Area">
+      <EntityTypeMapping TypeName="PEIModel.Nation_Area">
+        <MappingFragment StoreEntitySet="Nation_Area">
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Population" ColumnName="Population" />
+          <ScalarProperty Name="StateFipsCode" ColumnName="StateFipsCode" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OccupationDistributions">
+      <EntityTypeMapping TypeName="PEIModel.OccupationDistribution">
+        <MappingFragment StoreEntitySet="OccupationDistribution">
+          <ScalarProperty Name="OccupationID" ColumnName="OccupationID" />
+          <ScalarProperty Name="RIO" ColumnName="RIO" />
+          <ScalarProperty Name="IndustryID" ColumnName="IndustryID" />
+          <ScalarProperty Name="OccupationIndex" ColumnName="OccupationIndex" />
+          <ScalarProperty Name="Percent" ColumnName="Percent" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_nation_">
+      <EntityTypeMapping TypeName="PEIModel.P_nation_">
+        <MappingFragment StoreEntitySet="P(nation)">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P" ColumnName="P" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RegionalDatas">
+      <EntityTypeMapping TypeName="PEIModel.RegionalData">
+        <MappingFragment StoreEntitySet="RegionalData">
+          <ScalarProperty Name="FipsCode" ColumnName="FipsCode" />
+          <ScalarProperty Name="RIO" ColumnName="RIO" />
+          <ScalarProperty Name="Inc" ColumnName="Inc" />
+          <ScalarProperty Name="Emp" ColumnName="Emp" />
+          <ScalarProperty Name="GDP" ColumnName="GDP" />
+          <ScalarProperty Name="Wages" ColumnName="Wages" />
+          <ScalarProperty Name="StateLocal" ColumnName="StateLocal" />
+          <ScalarProperty Name="Federal" ColumnName="Federal" />
+          <ScalarProperty Name="Insurance" ColumnName="Insurance" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Regions">
+      <EntityTypeMapping TypeName="PEIModel.Region">
+        <MappingFragment StoreEntitySet="Regions">
+          <ScalarProperty Name="FipsCode" ColumnName="FipsCode" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rehabs">
+      <EntityTypeMapping TypeName="PEIModel.Rehab">
+        <MappingFragment StoreEntitySet="Rehab">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="RH_KEY" ColumnName="RH_KEY" />
+          <ScalarProperty Name="PC_KEY" ColumnName="PC_KEY" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblBases">
+      <EntityTypeMapping TypeName="PEIModel.tblBase">
+        <MappingFragment StoreEntitySet="tblBase">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Income" ColumnName="Income" />
+          <ScalarProperty Name="Employment" ColumnName="Employment" />
+          <ScalarProperty Name="GDP" ColumnName="GDP" />
+          <ScalarProperty Name="Output" ColumnName="Output" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDirectEffects">
+      <EntityTypeMapping TypeName="PEIModel.tblDirectEffect">
+        <MappingFragment StoreEntitySet="tblDirectEffects">
+          <ScalarProperty Name="Industry" ColumnName="Industry" />
+          <ScalarProperty Name="IndustryID" ColumnName="IndustryID" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+          <ScalarProperty Name="SectionID" ColumnName="SectionID" />
+          <ScalarProperty Name="Employment" ColumnName="Employment" />
+          <ScalarProperty Name="Income" ColumnName="Income" />
+          <ScalarProperty Name="GrossStateProduct" ColumnName="GrossStateProduct" />
+          <ScalarProperty Name="Output" ColumnName="Output" />
+          <ScalarProperty Name="SIC" ColumnName="SIC" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEconomicBases">
+      <EntityTypeMapping TypeName="PEIModel.tblEconomicBase">
+        <MappingFragment StoreEntitySet="tblEconomicBase">
+          <ScalarProperty Name="Employment1" ColumnName="Employment1" />
+          <ScalarProperty Name="Employment2" ColumnName="Employment2" />
+          <ScalarProperty Name="Employment3" ColumnName="Employment3" />
+          <ScalarProperty Name="Employment4" ColumnName="Employment4" />
+          <ScalarProperty Name="Employment5" ColumnName="Employment5" />
+          <ScalarProperty Name="Employment6" ColumnName="Employment6" />
+          <ScalarProperty Name="Employment7" ColumnName="Employment7" />
+          <ScalarProperty Name="Employment8" ColumnName="Employment8" />
+          <ScalarProperty Name="Employment9" ColumnName="Employment9" />
+          <ScalarProperty Name="Employment10" ColumnName="Employment10" />
+          <ScalarProperty Name="Employment11" ColumnName="Employment11" />
+          <ScalarProperty Name="Income1" ColumnName="Income1" />
+          <ScalarProperty Name="Income2" ColumnName="Income2" />
+          <ScalarProperty Name="Income3" ColumnName="Income3" />
+          <ScalarProperty Name="Income4" ColumnName="Income4" />
+          <ScalarProperty Name="Income5" ColumnName="Income5" />
+          <ScalarProperty Name="Income6" ColumnName="Income6" />
+          <ScalarProperty Name="Income7" ColumnName="Income7" />
+          <ScalarProperty Name="Income8" ColumnName="Income8" />
+          <ScalarProperty Name="Income9" ColumnName="Income9" />
+          <ScalarProperty Name="Income10" ColumnName="Income10" />
+          <ScalarProperty Name="Income11" ColumnName="Income11" />
+          <ScalarProperty Name="Gross1" ColumnName="Gross1" />
+          <ScalarProperty Name="Gross2" ColumnName="Gross2" />
+          <ScalarProperty Name="Gross3" ColumnName="Gross3" />
+          <ScalarProperty Name="Gross4" ColumnName="Gross4" />
+          <ScalarProperty Name="Gross5" ColumnName="Gross5" />
+          <ScalarProperty Name="Gross6" ColumnName="Gross6" />
+          <ScalarProperty Name="Gross7" ColumnName="Gross7" />
+          <ScalarProperty Name="Gross8" ColumnName="Gross8" />
+          <ScalarProperty Name="Gross9" ColumnName="Gross9" />
+          <ScalarProperty Name="Gross10" ColumnName="Gross10" />
+          <ScalarProperty Name="Gross11" ColumnName="Gross11" />
+          <ScalarProperty Name="Output1" ColumnName="Output1" />
+          <ScalarProperty Name="Output2" ColumnName="Output2" />
+          <ScalarProperty Name="Output3" ColumnName="Output3" />
+          <ScalarProperty Name="Output4" ColumnName="Output4" />
+          <ScalarProperty Name="Output5" ColumnName="Output5" />
+          <ScalarProperty Name="Output6" ColumnName="Output6" />
+          <ScalarProperty Name="Output7" ColumnName="Output7" />
+          <ScalarProperty Name="Output8" ColumnName="Output8" />
+          <ScalarProperty Name="Output9" ColumnName="Output9" />
+          <ScalarProperty Name="Output10" ColumnName="Output10" />
+          <ScalarProperty Name="Output11" ColumnName="Output11" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblGeneralIndustries">
+      <EntityTypeMapping TypeName="PEIModel.tblGeneralIndustry">
+        <MappingFragment StoreEntitySet="tblGeneralIndustry">
+          <ScalarProperty Name="Employment1" ColumnName="Employment1" />
+          <ScalarProperty Name="Employment2" ColumnName="Employment2" />
+          <ScalarProperty Name="Employment3" ColumnName="Employment3" />
+          <ScalarProperty Name="Employment4" ColumnName="Employment4" />
+          <ScalarProperty Name="Employment5" ColumnName="Employment5" />
+          <ScalarProperty Name="Employment6" ColumnName="Employment6" />
+          <ScalarProperty Name="Employment7" ColumnName="Employment7" />
+          <ScalarProperty Name="Employment8" ColumnName="Employment8" />
+          <ScalarProperty Name="Employment9" ColumnName="Employment9" />
+          <ScalarProperty Name="Employment10" ColumnName="Employment10" />
+          <ScalarProperty Name="Employment11" ColumnName="Employment11" />
+          <ScalarProperty Name="Employment12" ColumnName="Employment12" />
+          <ScalarProperty Name="Employment13" ColumnName="Employment13" />
+          <ScalarProperty Name="Employment14" ColumnName="Employment14" />
+          <ScalarProperty Name="Income1" ColumnName="Income1" />
+          <ScalarProperty Name="Income2" ColumnName="Income2" />
+          <ScalarProperty Name="Income3" ColumnName="Income3" />
+          <ScalarProperty Name="Income4" ColumnName="Income4" />
+          <ScalarProperty Name="Income5" ColumnName="Income5" />
+          <ScalarProperty Name="Income6" ColumnName="Income6" />
+          <ScalarProperty Name="Income7" ColumnName="Income7" />
+          <ScalarProperty Name="Income8" ColumnName="Income8" />
+          <ScalarProperty Name="Income9" ColumnName="Income9" />
+          <ScalarProperty Name="Income10" ColumnName="Income10" />
+          <ScalarProperty Name="Income11" ColumnName="Income11" />
+          <ScalarProperty Name="Income12" ColumnName="Income12" />
+          <ScalarProperty Name="Income13" ColumnName="Income13" />
+          <ScalarProperty Name="Income14" ColumnName="Income14" />
+          <ScalarProperty Name="Gross1" ColumnName="Gross1" />
+          <ScalarProperty Name="Gross2" ColumnName="Gross2" />
+          <ScalarProperty Name="Gross3" ColumnName="Gross3" />
+          <ScalarProperty Name="Gross4" ColumnName="Gross4" />
+          <ScalarProperty Name="Gross5" ColumnName="Gross5" />
+          <ScalarProperty Name="Gross6" ColumnName="Gross6" />
+          <ScalarProperty Name="Gross7" ColumnName="Gross7" />
+          <ScalarProperty Name="Gross8" ColumnName="Gross8" />
+          <ScalarProperty Name="Gross9" ColumnName="Gross9" />
+          <ScalarProperty Name="Gross10" ColumnName="Gross10" />
+          <ScalarProperty Name="Gross11" ColumnName="Gross11" />
+          <ScalarProperty Name="Gross12" ColumnName="Gross12" />
+          <ScalarProperty Name="Gross13" ColumnName="Gross13" />
+          <ScalarProperty Name="Gross14" ColumnName="Gross14" />
+          <ScalarProperty Name="Gross15" ColumnName="Gross15" />
+          <ScalarProperty Name="Gross16" ColumnName="Gross16" />
+          <ScalarProperty Name="Gross17" ColumnName="Gross17" />
+          <ScalarProperty Name="Gross18" ColumnName="Gross18" />
+          <ScalarProperty Name="Gross19" ColumnName="Gross19" />
+          <ScalarProperty Name="Gross20" ColumnName="Gross20" />
+          <ScalarProperty Name="Gross21" ColumnName="Gross21" />
+          <ScalarProperty Name="Gross22" ColumnName="Gross22" />
+          <ScalarProperty Name="Gross23" ColumnName="Gross23" />
+          <ScalarProperty Name="Gross24" ColumnName="Gross24" />
+          <ScalarProperty Name="Gross25" ColumnName="Gross25" />
+          <ScalarProperty Name="Output1" ColumnName="Output1" />
+          <ScalarProperty Name="Output2" ColumnName="Output2" />
+          <ScalarProperty Name="Output3" ColumnName="Output3" />
+          <ScalarProperty Name="Output4" ColumnName="Output4" />
+          <ScalarProperty Name="Output5" ColumnName="Output5" />
+          <ScalarProperty Name="Output6" ColumnName="Output6" />
+          <ScalarProperty Name="Output7" ColumnName="Output7" />
+          <ScalarProperty Name="Output8" ColumnName="Output8" />
+          <ScalarProperty Name="Output9" ColumnName="Output9" />
+          <ScalarProperty Name="Output10" ColumnName="Output10" />
+          <ScalarProperty Name="Output11" ColumnName="Output11" />
+          <ScalarProperty Name="Output12" ColumnName="Output12" />
+          <ScalarProperty Name="Output13" ColumnName="Output13" />
+          <ScalarProperty Name="Output14" ColumnName="Output14" />
+          <ScalarProperty Name="InitialEffect" ColumnName="InitialEffect" />
+          <ScalarProperty Name="Gross26" ColumnName="Gross26" />
+          <ScalarProperty Name="Gross27" ColumnName="Gross27" />
+          <ScalarProperty Name="Gross28" ColumnName="Gross28" />
+          <ScalarProperty Name="Gross29" ColumnName="Gross29" />
+          <ScalarProperty Name="Gross30" ColumnName="Gross30" />
+          <ScalarProperty Name="PersonalIncome" ColumnName="PersonalIncome" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblIndustries">
+      <EntityTypeMapping TypeName="PEIModel.tblIndustry">
+        <MappingFragment StoreEntitySet="tblIndustry">
+          <ScalarProperty Name="Industry" ColumnName="Industry" />
+          <ScalarProperty Name="IndustryID" ColumnName="IndustryID" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+          <ScalarProperty Name="SectionID" ColumnName="SectionID" />
+          <ScalarProperty Name="Employment" ColumnName="Employment" />
+          <ScalarProperty Name="Income" ColumnName="Income" />
+          <ScalarProperty Name="GrossStateProduct" ColumnName="GrossStateProduct" />
+          <ScalarProperty Name="Output" ColumnName="Output" />
+          <ScalarProperty Name="SIC" ColumnName="SIC" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblOccupations">
+      <EntityTypeMapping TypeName="PEIModel.tblOccupation">
+        <MappingFragment StoreEntitySet="tblOccupations">
+          <ScalarProperty Name="OccupationIndex" ColumnName="OccupationIndex" />
+          <ScalarProperty Name="OccupationID" ColumnName="OccupationID" />
+          <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="SectionName" ColumnName="SectionName" />
+          <ScalarProperty Name="SectionID" ColumnName="SectionID" />
+          <ScalarProperty Name="DetailsName" ColumnName="DetailsName" />
+          <ScalarProperty Name="DitailsID" ColumnName="DitailsID" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblShares">
+      <EntityTypeMapping TypeName="PEIModel.tblShare">
+        <MappingFragment StoreEntitySet="tblShares">
+          <ScalarProperty Name="Employment1" ColumnName="Employment1" />
+          <ScalarProperty Name="Employment2" ColumnName="Employment2" />
+          <ScalarProperty Name="Employment3" ColumnName="Employment3" />
+          <ScalarProperty Name="Employment4" ColumnName="Employment4" />
+          <ScalarProperty Name="Employment5" ColumnName="Employment5" />
+          <ScalarProperty Name="Employment6" ColumnName="Employment6" />
+          <ScalarProperty Name="Employment7" ColumnName="Employment7" />
+          <ScalarProperty Name="Employment8" ColumnName="Employment8" />
+          <ScalarProperty Name="Employment9" ColumnName="Employment9" />
+          <ScalarProperty Name="Employment10" ColumnName="Employment10" />
+          <ScalarProperty Name="Employment11" ColumnName="Employment11" />
+          <ScalarProperty Name="Income1" ColumnName="Income1" />
+          <ScalarProperty Name="Income2" ColumnName="Income2" />
+          <ScalarProperty Name="Income3" ColumnName="Income3" />
+          <ScalarProperty Name="Income4" ColumnName="Income4" />
+          <ScalarProperty Name="Income5" ColumnName="Income5" />
+          <ScalarProperty Name="Income6" ColumnName="Income6" />
+          <ScalarProperty Name="Income7" ColumnName="Income7" />
+          <ScalarProperty Name="Income8" ColumnName="Income8" />
+          <ScalarProperty Name="Income9" ColumnName="Income9" />
+          <ScalarProperty Name="Income10" ColumnName="Income10" />
+          <ScalarProperty Name="Income11" ColumnName="Income11" />
+          <ScalarProperty Name="Gross1" ColumnName="Gross1" />
+          <ScalarProperty Name="Gross2" ColumnName="Gross2" />
+          <ScalarProperty Name="Gross3" ColumnName="Gross3" />
+          <ScalarProperty Name="Gross4" ColumnName="Gross4" />
+          <ScalarProperty Name="Gross5" ColumnName="Gross5" />
+          <ScalarProperty Name="Gross6" ColumnName="Gross6" />
+          <ScalarProperty Name="Gross7" ColumnName="Gross7" />
+          <ScalarProperty Name="Gross8" ColumnName="Gross8" />
+          <ScalarProperty Name="Gross9" ColumnName="Gross9" />
+          <ScalarProperty Name="Gross10" ColumnName="Gross10" />
+          <ScalarProperty Name="Gross11" ColumnName="Gross11" />
+          <ScalarProperty Name="Output1" ColumnName="Output1" />
+          <ScalarProperty Name="Output2" ColumnName="Output2" />
+          <ScalarProperty Name="Output3" ColumnName="Output3" />
+          <ScalarProperty Name="Output4" ColumnName="Output4" />
+          <ScalarProperty Name="Output5" ColumnName="Output5" />
+          <ScalarProperty Name="Output6" ColumnName="Output6" />
+          <ScalarProperty Name="Output7" ColumnName="Output7" />
+          <ScalarProperty Name="Output8" ColumnName="Output8" />
+          <ScalarProperty Name="Output9" ColumnName="Output9" />
+          <ScalarProperty Name="Output10" ColumnName="Output10" />
+          <ScalarProperty Name="Output11" ColumnName="Output11" />
+          <ScalarProperty Name="PrivateOut" ColumnName="PrivateOut" />
+          <ScalarProperty Name="TotOut" ColumnName="TotOut" />
+          <ScalarProperty Name="PrivateEmp" ColumnName="PrivateEmp" />
+          <ScalarProperty Name="PrivateGDP" ColumnName="PrivateGDP" />
+          <ScalarProperty Name="PrivateInc" ColumnName="PrivateInc" />
+          <ScalarProperty Name="TotEmp" ColumnName="TotEmp" />
+          <ScalarProperty Name="TotInc" ColumnName="TotInc" />
+          <ScalarProperty Name="TotGDP" ColumnName="TotGDP" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTemps">
+      <EntityTypeMapping TypeName="PEIModel.tblTemp">
+        <MappingFragment StoreEntitySet="tblTemp">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Income" ColumnName="Income" />
+          <ScalarProperty Name="Employment" ColumnName="Employment" />
+          <ScalarProperty Name="GDP" ColumnName="GDP" />
+          <ScalarProperty Name="Output" ColumnName="Output" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TempPCs">
+      <EntityTypeMapping TypeName="PEIModel.TempPC">
+        <MappingFragment StoreEntitySet="TempPC">
+          <ScalarProperty Name="PC_KEY" ColumnName="PC_KEY" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VectorAAs">
+      <EntityTypeMapping TypeName="PEIModel.VectorAA">
+        <MappingFragment StoreEntitySet="VectorAA">
+          <ScalarProperty Name="RIO" ColumnName="RIO" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VectorAADistributions">
+      <EntityTypeMapping TypeName="PEIModel.VectorAADistribution">
+        <MappingFragment StoreEntitySet="VectorAADistribution">
+          <ScalarProperty Name="RIO" ColumnName="RIO" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="z_AlabamaRest_AMatrix">
+      <EntityTypeMapping TypeName="PEIModel.z_AlabamaRest_AMatrix">
+        <MappingFragment StoreEntitySet="z_AlabamaRest_AMatrix">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ZNewIoCodes">
+      <EntityTypeMapping TypeName="PEIModel.ZNewIoCode">
+        <MappingFragment StoreEntitySet="ZNewIoCodes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IO_KEY" ColumnName="IO_KEY" />
+          <ScalarProperty Name="IO_DESC" ColumnName="IO_DESC" />
+          <ScalarProperty Name="PC_KEY" ColumnName="PC_KEY" />
+          <ScalarProperty Name="PC_KEY_FOUND" ColumnName="PC_KEY_FOUND" />
+          <ScalarProperty Name="SIC" ColumnName="SIC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="spAlabama_AMatrix" FunctionName="PEIModel.Store.spAlabama_AMatrix" />
+    <FunctionImportMapping FunctionImportName="spAlabama_Area" FunctionName="PEIModel.Store.spAlabama_Area" />
+    <FunctionImportMapping FunctionImportName="spAlabama_DefaultData" FunctionName="PEIModel.Store.spAlabama_DefaultData" />
+    <FunctionImportMapping FunctionImportName="spAlabama_LeontievInverse" FunctionName="PEIModel.Store.spAlabama_LeontievInverse" />
+    <FunctionImportMapping FunctionImportName="spAlabamaRest_Area" FunctionName="PEIModel.Store.spAlabamaRest_Area" />
+    <FunctionImportMapping FunctionImportName="spAlabamaRest_DefaultData" FunctionName="PEIModel.Store.spAlabamaRest_DefaultData" />
+    <FunctionImportMapping FunctionImportName="spz_AlabamaRest_AMatrix" FunctionName="PEIModel.Store.spz_AlabamaRest_AMatrix" />
+    <EntitySetMapping Name="New_Stores_and_Restaurants">
+      <EntityTypeMapping TypeName="PEIModel.New_Stores_and_Restaurant">
+        <MappingFragment StoreEntitySet="New Stores and Restaurants">
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="PC_KEY" ColumnName="PC_KEY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Alabama_DefaultData">
+      <EntityTypeMapping TypeName="PEIModel.Alabama_DefaultData">
+        <MappingFragment StoreEntitySet="Alabama_DefaultData">
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="FederalGenTotal" ColumnName="FederalGenTotal" />
+          <ScalarProperty Name="StateTotal" ColumnName="StateTotal" />
+          <ScalarProperty Name="LocalTotal" ColumnName="LocalTotal" />
+          <ScalarProperty Name="GDPTotal" ColumnName="GDPTotal" />
+          <ScalarProperty Name="EmploymentTotal" ColumnName="EmploymentTotal" />
+          <ScalarProperty Name="IncomeTotal" ColumnName="IncomeTotal" />
+          <ScalarProperty Name="Demand" ColumnName="Demand" />
+          <ScalarProperty Name="Supply" ColumnName="Supply" />
+          <ScalarProperty Name="Local" ColumnName="Local" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="FederalIns" ColumnName="FederalIns" />
+          <ScalarProperty Name="FederalGen" ColumnName="FederalGen" />
+          <ScalarProperty Name="P" ColumnName="P" />
+          <ScalarProperty Name="Wages" ColumnName="Wages" />
+          <ScalarProperty Name="GDP" ColumnName="GDP" />
+          <ScalarProperty Name="Emp" ColumnName="Emp" />
+          <ScalarProperty Name="Inc" ColumnName="Inc" />
+          <ScalarProperty Name="REGION_ID" ColumnName="REGION_ID" />
+          <ScalarProperty Name="RIO_DESC" ColumnName="RIO_DESC" />
+          <ScalarProperty Name="RIO_KEY" ColumnName="RIO_KEY" />
+          <ScalarProperty Name="RIO" ColumnName="RIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Alabama_RegionData">
+      <EntityTypeMapping TypeName="PEIModel.Alabama_RegionData">
+        <MappingFragment StoreEntitySet="Alabama_RegionData">
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="FederalGenTotal" ColumnName="FederalGenTotal" />
+          <ScalarProperty Name="StateTotal" ColumnName="StateTotal" />
+          <ScalarProperty Name="LocalTotal" ColumnName="LocalTotal" />
+          <ScalarProperty Name="GDPTotal" ColumnName="GDPTotal" />
+          <ScalarProperty Name="EmploymentTotal" ColumnName="EmploymentTotal" />
+          <ScalarProperty Name="IncomeTotal" ColumnName="IncomeTotal" />
+          <ScalarProperty Name="Demand" ColumnName="Demand" />
+          <ScalarProperty Name="Supply" ColumnName="Supply" />
+          <ScalarProperty Name="Local" ColumnName="Local" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="FederalIns" ColumnName="FederalIns" />
+          <ScalarProperty Name="FederalGen" ColumnName="FederalGen" />
+          <ScalarProperty Name="P" ColumnName="P" />
+          <ScalarProperty Name="Wages" ColumnName="Wages" />
+          <ScalarProperty Name="GDP" ColumnName="GDP" />
+          <ScalarProperty Name="Emp" ColumnName="Emp" />
+          <ScalarProperty Name="Inc" ColumnName="Inc" />
+          <ScalarProperty Name="REGION_ID" ColumnName="REGION_ID" />
+          <ScalarProperty Name="RIO_DESC" ColumnName="RIO_DESC" />
+          <ScalarProperty Name="RIO_KEY" ColumnName="RIO_KEY" />
+          <ScalarProperty Name="RIO" ColumnName="RIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AlabamaRest_DefaultData">
+      <EntityTypeMapping TypeName="PEIModel.AlabamaRest_DefaultData">
+        <MappingFragment StoreEntitySet="AlabamaRest_DefaultData">
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="FederalGenTotal" ColumnName="FederalGenTotal" />
+          <ScalarProperty Name="StateTotal" ColumnName="StateTotal" />
+          <ScalarProperty Name="LocalTotal" ColumnName="LocalTotal" />
+          <ScalarProperty Name="GDPTotal" ColumnName="GDPTotal" />
+          <ScalarProperty Name="EmploymentTotal" ColumnName="EmploymentTotal" />
+          <ScalarProperty Name="IncomeTotal" ColumnName="IncomeTotal" />
+          <ScalarProperty Name="Demand" ColumnName="Demand" />
+          <ScalarProperty Name="Supply" ColumnName="Supply" />
+          <ScalarProperty Name="Local" ColumnName="Local" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="FederalIns" ColumnName="FederalIns" />
+          <ScalarProperty Name="FederalGen" ColumnName="FederalGen" />
+          <ScalarProperty Name="P" ColumnName="P" />
+          <ScalarProperty Name="Wages" ColumnName="Wages" />
+          <ScalarProperty Name="GDP" ColumnName="GDP" />
+          <ScalarProperty Name="Emp" ColumnName="Emp" />
+          <ScalarProperty Name="Inc" ColumnName="Inc" />
+          <ScalarProperty Name="REGION_ID" ColumnName="REGION_ID" />
+          <ScalarProperty Name="RIO_DESC" ColumnName="RIO_DESC" />
+          <ScalarProperty Name="RIO_KEY" ColumnName="RIO_KEY" />
+          <ScalarProperty Name="RIO" ColumnName="RIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AlabamaRest_RegionData">
+      <EntityTypeMapping TypeName="PEIModel.AlabamaRest_RegionData">
+        <MappingFragment StoreEntitySet="AlabamaRest_RegionData">
+          <ScalarProperty Name="SSMA_TimeStamp" ColumnName="SSMA_TimeStamp" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="FederalGenTotal" ColumnName="FederalGenTotal" />
+          <ScalarProperty Name="StateTotal" ColumnName="StateTotal" />
+          <ScalarProperty Name="LocalTotal" ColumnName="LocalTotal" />
+          <ScalarProperty Name="GDPTotal" ColumnName="GDPTotal" />
+          <ScalarProperty Name="EmploymentTotal" ColumnName="EmploymentTotal" />
+          <ScalarProperty Name="IncomeTotal" ColumnName="IncomeTotal" />
+          <ScalarProperty Name="Demand" ColumnName="Demand" />
+          <ScalarProperty Name="Supply" ColumnName="Supply" />
+          <ScalarProperty Name="Local" ColumnName="Local" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="FederalIns" ColumnName="FederalIns" />
+          <ScalarProperty Name="FederalGen" ColumnName="FederalGen" />
+          <ScalarProperty Name="P" ColumnName="P" />
+          <ScalarProperty Name="Wages" ColumnName="Wages" />
+          <ScalarProperty Name="GDP" ColumnName="GDP" />
+          <ScalarProperty Name="Emp" ColumnName="Emp" />
+          <ScalarProperty Name="Inc" ColumnName="Inc" />
+          <ScalarProperty Name="REGION_ID" ColumnName="REGION_ID" />
+          <ScalarProperty Name="RIO_DESC" ColumnName="RIO_DESC" />
+          <ScalarProperty Name="RIO_KEY" ColumnName="RIO_KEY" />
+          <ScalarProperty Name="RIO" ColumnName="RIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

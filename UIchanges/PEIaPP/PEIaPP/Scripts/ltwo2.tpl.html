@@ -1,0 +1,90 @@
+  <!--<head>
+      <style type="text/css">
+          .auto-style1
+          {
+              background-color: #66FFFF;
+          }
+      </style>
+  </head>-->
+  <div ng-controller="MyCtrl">
+       
+
+
+        
+        <table style="margin-right: 142px">
+         <tr>
+        <td></td>
+             <td style="color: #0066FF; font-weight: 700"> <input type="checkbox" ng-model="rmainb" /> Multiple Family House     </td>
+        
+        </tr>
+
+
+<tr><td><label >Types of System Repair :        </label></td><td> <input type="radio"   ng-model="r1b"  ng-disabled="!rmainb"  value=V1 checked="true" name="R1" /> Standard<input type="radio"   ng-model="r1b"  ng-disabled="!rmainb" value=V1 checked="true" name="R2" > Extensive </td></tr>
+<tr><td><label >Amount of Interior Work Needed :</label></td><td> <input type="radio"   ng-model="r2b"  ng-disabled="!rmainb"  value=V1 checked="true" name="R3" /> Standard<input type="radio"   ng-model="r2b"  ng-disabled="!rmainb" value=V1 checked="true" name="R4"> Extensive </td></tr>>
+<tr><td><label >Amount of Site Work Needed :</label></td><td> <input type="radio"   ng-model="r3b"  ng-disabled="!rmainb"  value=V1 checked="true" name="R5" /> Standard<input type="radio"   ng-model="r3b"  ng-disabled="!rmainb" value=V1 checked="true" name="R6"> Extensive </td></tr> 
+<tr><td><label >Kind of Material Used :     </label></td><td> <input type="radio"   ng-model="r4b"  ng-disabled="!rmainb"  value=V1 checked="true" name="R7" /> Masonry<input type="radio"   ng-model="r4b"  ng-disabled="!rmainb" value=V1 checked="true" name="R8"> Wood </td></tr>
+<tr><td><label >Amount of Exterior Work Needed :</label></td><td> <input type="radio"   ng-model="r5b"  ng-disabled="!rmainb"  value=V1 checked="true" name="R9" /> Standard<input type="radio"   ng-model="r5b"  ng-disabled="!rmainb" value=V1 checked="true" name="R10"> Extensive </td></tr> 
+<tr><td><label >Include Soft Cost :</label></td><td> <input type="radio"   ng-model="r6b"  ng-disabled="!rmainb"  value=V1 checked="true" name="R11" /> Yes<input type="radio"   ng-model="r6b"  ng-disabled="!rmainb" value=V1 checked="true" name="R12"> No </td></tr>         
+<tr><td><label >Architecture and Engeneering</label></td><td> <input type="number"   ng-model="r7b" ng-init="r7b = 0"  ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >General Requirements</label></td><td> <input type="number"   ng-model="r8b" ng-init="r8 = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Site Work</label></td><td> <input type="number"   ng-model="r9b" ng-init="r9b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Concrete</label></td><td> <input type="number"   ng-model="r10b" ng-init="r10b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Masonry</label></td><td> <input type="number"   ng-model="r11b" ng-init="r11b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Metals</label></td><td> <input type="number"   ng-model="r12b" ng-init="r12b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Wood and plastic</label></td><td> <input type="number"   ng-model="r13b" ng-init="r13b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Thermal and Moisture </label></td><td> <input type="number"   ng-model="r14b" ng-init="r14b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Doors and Windows</label></td><td> <input type="number"   ng-model="r15b" ng-init="r15b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Finishes</label></td><td> <input type="number"   ng-model="r16b" ng-init="r16b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Specialities</label></td><td> <input type="number"   ng-model="r17b" ng-init="r17b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Equipment</label></td><td> <input type="number"   ng-model="r18b" ng-init="r18b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Furnishings</label></td><td> <input type="number"   ng-model="r19b" ng-init="r19b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Special Construction</label></td><td> <input type="number"   ng-model="r20b" ng-init="r20b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Conveying Systems</label></td><td> <input type="number"   ng-model="r21b" ng-init="r21b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Mechanical</label></td><td> <input type="number"   ng-model="r22b"ng-init="r22b = 0"  ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Electrical</label></td><td> <input type="number"   ng-model="r23b" ng-init="r23b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Attorney/other</label></td><td> <input type="number"   ng-model="r24b" ng-init="r24b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Total Amount</label></td><td> <input type="number"   ng-model="r25b" ng-init="r25b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Site Work</label></td><td> <input type="number"   ng-model="r26b" ng-init="r26b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Concrete</label></td><td> <input type="number"   ng-model="r27b" ng-init="r27b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Masonry</label></td><td> <input type="number"   ng-model="r28b" ng-init="r28b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Metals</label></td><td> <input type="number"   ng-model="r29b" ng-init="r29b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Wood and Plastic</label></td><td> <input type="number"   ng-model="r30b" ng-init="r30b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Thermal and Moisture</label></td><td> <input type="number"   ng-model="r31b" ng-init="r31b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Doors and Windows</label></td><td> <input type="number"   ng-model="r32b" ng-init="r32b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Finishes</label></td><td> <input type="number"   ng-model="r33b" ng-init="r33b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Specialities</label></td><td> <input type="number"   ng-model="r34b" ng-init="r34b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Equipment</label></td><td> <input type="number"   ng-model="r35b" ng-init="r35b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Furnishings</label></td><td> <input type="number"   ng-model="r36b" ng-init="r36b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Special Construction</label></td><td> <input type="number"   ng-model="r37b" ng-init="r37b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Conveying Systems</label></td><td> <input type="number"   ng-model="r38b" ng-init="r38b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label >Mechanical</label></td><td> <input type="number"   ng-model="r39b" ng-init="r39b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+<tr><td><label><span class="auto-style1">Electrical</span></label></td><td> <input type="number"   ng-model="r40b" ng-init="r40b = 0" ng-disabled="!rmainb"  value=0 /></td></tr>
+
+
+
+</table>
+
+      
+
+
+
+
+
+
+
+    
+    <input type="checkbox"   ng-model="tab2"    />
+
+      
+
+
+
+
+
+
+
+    
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Save" ng-click="changeName(region,report,state,tab1,tab2,tab3,tab4,MainCR, MainCNC, CJV, MainJNCB, HMS, tcs, vc, three1, three2, three3, three4, three5, three6, three7, three8, three9, three10,three11, rmaina, rmainb, rmainc, rmaind, r1a, r2a, r3a, r4a, r5a, r6a, r7a, r8a, r9a, r10a, r11a, r12a, r13a, r14a, r15a, r16a, r17a, r18a, r19a, r20a, r21a, r22a, r23a, r24a,r25a, r26a, r27a, r28a, r29a, r30a, r31a, r32a, r33a, r34a, r35a, r36a, r37a, r38a, r39a, r40a, r1b, r2b, r3b, r4b, r5b, r6b, r7b, r8b, r9b, r10b, r11b, r12b, r13b, r14b, r15b, r16b, r17b, r18b, r19b, r20b, r21b, r22b, r23b, r24b,r25b, r26b, r27b, r28b, r29b, r30b, r31b, r32b, r33b, r34b, r35b, r36b, r37b, r38b, r39b, r40b, r1c, r2c, r3c, r4c, r5c, r6c, r7c, r8c, r9c, r10c, r11c, r12c, r13c, r14c, r15c, r16c, r17c, r18c, r19c, r20c, r21c, r22c, r23c, r24c,r25c, r26c, r27c, r28c, r29c, r30c, r31c, r32c, r33c, r34c, r35c, r36c, r37c, r38c, r39c, r40c, r1d, r2d, r3d, r4d, r5d, r6d, r7d, r8d, r9d, r10d, r11d, r12d, r13d, r14d, r15d, r16d, r17d, r18d, r19d, r20d, r21d, r22d, r23d, r24d,r25d, r26d, r27d, r28d, r29d, r30d, r31d, r32d, r33d, r34d, r35d, r36d, r37d, r38d, r39d, r40d)" style="width: 103px;"/>
+     <input type="button" value="GetDefaultvalues" ng-click="getdefaultltwo2()" />
+     
+</div>
